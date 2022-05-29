@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "queries",
+  "info": {
+    "singularName": "query",
+    "pluralName": "queries",
+    "displayName": "query",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "hotelname": {
+      "type": "string"
+    }
+  }
+}
